@@ -15,9 +15,7 @@ export const Contact: React.FC = () => {
   return (
     <StyledBox>
       <StyledTypography variant="h2">Contact</StyledTypography>
-      <Typography variant="body1">
-        Informații de contact sau un formular de contact.
-      </Typography>
+      <Typography variant="body1">Informații de contact</Typography>
       <form onSubmit={handleSubmit}>
         <TextField label="Nume" name="nume" fullWidth margin="normal" />
         <TextField label="Email" name="email" fullWidth margin="normal" />
