@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, TextField, Button } from '@mui/material';
 import { StyledBox, StyledTypography } from './Contact.styles';
+import { Link } from 'react-router-dom';
 
 export const Contact: React.FC = () => {
   const handleSubmit = (event: React.FormEvent) => {
@@ -31,6 +32,7 @@ export const Contact: React.FC = () => {
           Trimite
         </Button>
       </form>
+      <Link to="/">Back to About</Link>
     </StyledBox>
   );
 };
