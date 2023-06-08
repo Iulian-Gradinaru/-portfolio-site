@@ -29,7 +29,7 @@ export const Contact: React.FC = () => {
           rows={4}
         />
         <Button variant="contained" type="submit">
-          Trimite
+          Send
         </Button>
       </form>
       <Link to="/">Back to About</Link>

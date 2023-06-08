@@ -13,15 +13,3 @@ export const Container = styled('div')(() => ({
   // right: 0,
   // bottom: 0,
 }));
-
-// export const Container = styled("div")(() => {
-//   return {
-//     display: "flex",
-//     flexDirection: "column",
-//     alignItems: "center",
-//     justifyContent: "center",
-//     width: "100%",
-//     padding: "20px 30px",
-//     paddingBottom: 0
-//   };
-// });
