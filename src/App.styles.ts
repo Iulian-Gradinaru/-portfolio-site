@@ -1,7 +1,7 @@
 import { styled } from '@mui/system';
 
 export const Container = styled('div')(() => ({
-  // backgroundColor: 'yellow',
+  backgroundColor: '#F7E6C4',
   // display: 'flex',
   // justifyContent: 'center',
   // alignItems: 'center',

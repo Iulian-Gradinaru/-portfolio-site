@@ -24,7 +24,7 @@
 export const Home: React.FC = () => {
   return (
     <div>
-      <h1>Hi, my nane is Iulian</h1>
+      <h1>Hi, my name is Iulian</h1>
     </div>
   );
 };

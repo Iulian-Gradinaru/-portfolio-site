@@ -1,7 +1,7 @@
 import { styled } from '@mui/system';
 
 export const Container = styled('nav')(() => ({
-  backgroundColor: 'red',
+  backgroundColor: '#F1C376',
   height: '13vh',
   display: 'flex',
   justifyContent: 'space-around',
