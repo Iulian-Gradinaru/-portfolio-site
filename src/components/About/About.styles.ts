@@ -3,8 +3,7 @@ import { styled } from '@mui/system';
 export const Container = styled('div')(() => {
   return {
     backgroundColor: '#F7E6C4',
-    width: '100%',
-    height: '80vh',
+
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
