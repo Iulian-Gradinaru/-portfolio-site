@@ -8,7 +8,7 @@ export const NavBar: React.FC = () => {
   return (
     <Container>
       <Paragraph>ceva aici</Paragraph>
-      <CustomNavLink to="/" isActive={() => false}>
+      <CustomNavLink to="/" isActive={() => true}>
         Home
       </CustomNavLink>
 
